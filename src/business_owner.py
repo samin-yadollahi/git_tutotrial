@@ -7,4 +7,5 @@ class BusinessOwner(Employee):
     def __repr__(self):
         print("for conflict")
         a = 2
+        print("ok")
         return f"{self.name}"
