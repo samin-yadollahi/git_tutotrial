@@ -5,5 +5,5 @@ from src.employee import Employee
 class BusinessOwner(Employee):
 
     def __repr__(self):
-        print("for conflict")
+        print("ok")
         return f"{self.name}"
